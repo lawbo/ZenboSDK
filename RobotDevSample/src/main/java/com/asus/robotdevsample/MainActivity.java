@@ -50,6 +50,18 @@ public class MainActivity extends Activity {
                 startActivity(myIntent);
             }
         });
+        
+        bt4 = (Button)findViewById(R.id.button4);
+        bt4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Uri uri = Uri.parse("https://itunes.apple.com/tw/app/zenbo-master/id1179640818?l=zh&mt=8"); 
+                Intent intent = new Intent(Intent.ACTION_VIEW,uri);
+                startActivity(intent);
+                robotAPI.robot.speak("請用手機下載 Zenbo 小主人，就可以遙控監視囉");
+            }
+        });
+        
 
         bt6 = (Button)findViewById(R.id.button6);
         bt6.setOnClickListener(new View.OnClickListener(){
