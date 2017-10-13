@@ -36,25 +36,6 @@ public class QaActivity extends AppCompatActivity {
         context = getApplicationContext();
         txvResult = (TextView) findViewById(R.id.txvResult);
 
-        new AsyncTask<Void,Void,String>(){
-            @Override
-            protected String doInBackground(Void... params) {
-                RobotAPI API= new RobotAPI(context);
-                OkHttpClient client = new OkHttpClient();
-                Request request = new Request.Builder()
-                        .url("http://220.134.39.80/%E6%88%91%E7%89%99%E7%97%9B%E6%80%8E%E9%BA%BC%E8%BE%A6")
-                        .build();
-
-                try {
-                    Response response = client.newCall(request).execute();
-                    API.robot.speak(response.body().string());
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-
-                return null;
-            }
-        }.execute();
     }
 
     public void getSpeechInput(View view) {
@@ -79,10 +60,27 @@ public class QaActivity extends AppCompatActivity {
         switch (requestCode) {
             case 10:
                 if (resultCode == RESULT_OK && data != null) {
-                    ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+                    final ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     txvResult.setText(result.get(0));
-                    API.robot.speak(result.get(0));
-                    //task.get(http://220.134.39.80/%E6%88%91%E7%89%99%E7%97%9B%E6%80%8E%E9%BA%BC%E8%BE%A6);
+                    //API.robot.speak(result.get(0));
+                    new AsyncTask<Void,Void,String>(){
+                        @Override
+                        protected String doInBackground(Void... params) {
+                            RobotAPI API= new RobotAPI(context);
+
+                            OkHttpClient client = new OkHttpClient();
+                            Request request = new Request.Builder().url("http://220.134.39.80/"+ result.get(0)).build();
+
+                            try {
+                                Response response = client.newCall(request).execute();
+                                API.robot.speak(response.body().string());
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+
+                            return null;
+                        }
+                    }.execute();
 
                 }
                 break;
