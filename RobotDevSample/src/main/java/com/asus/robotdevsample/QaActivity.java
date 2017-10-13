@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
-import android.support.v7.app.AppCompatActivity;//1212
+import android.support.v7.app.AppCompatActivity;
 
 import android.view.View;
 import android.widget.TextView;
