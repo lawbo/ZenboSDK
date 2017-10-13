@@ -1,0 +1,572 @@
+{
+    "project": {
+        "uid": 4595,
+        "name": "Template Project : Hello World (new) (new)",
+        "config": {
+            "layout": [
+                {
+                    "ui": [],
+                    "id": "c06bb500-c160-11e6-b705-678e04c37b93",
+                    "index": 1,
+                    "backgroundColor": "0xffffff",
+                    "event": [],
+                    "name": "scene1",
+                    "showEffect": "fadeIn",
+                    "type": "scene",
+                    "hideEffect": "fadeOut"
+                }
+            ],
+            "library": [
+                {
+                    "content": {
+                        "classes": [
+                            {
+                                "id": "MyCity",
+                                "parent": [],
+                                "instances": [
+                                    {
+                                        "id": "city001",
+                                        "prop": [],
+                                        "syno": [
+                                            {
+                                                "id": "1b8e6900-4c30-11e6-f837-bdb652273c85",
+                                                "value": "Black City",
+                                                "type": "plain"
+                                            },
+                                            {
+                                                "type": "plain",
+                                                "value": "黑色城市",
+                                                "id": "cc712640-e870-11e6-b176-e10c8dac3dab"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "city002",
+                                        "prop": [],
+                                        "syno": [
+                                            {
+                                                "id": "1efc1880-4c30-11e6-f837-bdb652273c85",
+                                                "value": "White City",
+                                                "type": "plain"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "classSyno": [
+                                    "My City",
+                                    "Color City"
+                                ]
+                            }
+                        ],
+                        "utterances": [
+                            {
+                                "id": "userSayHello",
+                                "sentences": [
+                                    [
+                                        {
+                                            "id": "41476150-4c30-11e6-f84a-9d80748291e0",
+                                            "value": "hello",
+                                            "type": "plain"
+                                        },
+                                        {
+                                            "id": "87c99cb0-4c30-11e6-f84a-9d80748291e0",
+                                            "belief": "myCity1",
+                                            "order": true,
+                                            "phraseBeliefSet": [
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                }
+                                            ],
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "MyCity"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax",
+                                            "limitWords": ""
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "id": "8ee07e10-4c30-11e6-f84a-9d80748291e0",
+                                            "value": "hello",
+                                            "type": "plain"
+                                        },
+                                        {
+                                            "id": "8fa554b0-4c30-11e6-f84a-9d80748291e0",
+                                            "belief": "systemCity1",
+                                            "order": true,
+                                            "phraseBeliefSet": [
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                }
+                                            ],
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "base.geo.city"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax",
+                                            "limitWords": ""
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "id": "5e680b90-4c30-11e6-f84a-9d80748291e0",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                }
+                                            ],
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "base.phrase.greeting.hello"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax",
+                                            "limitWords": ""
+                                        },
+                                        {
+                                            "id": "98a5b690-4c30-11e6-f84a-9d80748291e0",
+                                            "belief": "myCity1",
+                                            "order": true,
+                                            "phraseBeliefSet": [
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                }
+                                            ],
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "MyCity"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax",
+                                            "limitWords": ""
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "id": "9ad4f2a0-4c30-11e6-f84a-9d80748291e0",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                }
+                                            ],
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "base.phrase.greeting.hello"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax",
+                                            "limitWords": ""
+                                        },
+                                        {
+                                            "id": "a84001a0-4c30-11e6-f84a-9d80748291e0",
+                                            "belief": "systemCity1",
+                                            "order": true,
+                                            "phraseBeliefSet": [
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                }
+                                            ],
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "base.geo.city"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax",
+                                            "limitWords": ""
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "哈囉",
+                                            "id": "c4f3e1f0-e870-11e6-b176-e10c8dac3dab"
+                                        },
+                                        {
+                                            "belief": "myCity1",
+                                            "order": true,
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "MyCity"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "exceptionsSet": "",
+                                            "focus": "",
+                                            "phraseBeliefSet": [
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                },
+                                                {
+                                                    "id": "",
+                                                    "concept": ""
+                                                }
+                                            ],
+                                            "limitWordRange": [
+                                                "1",
+                                                "20"
+                                            ],
+                                            "type": "syntax",
+                                            "id": "c5587020-e870-11e6-b176-e10c8dac3dab"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "utteranceToLanuchApp",
+                                "sentences": [
+                                    [
+                                        {
+                                            "id": "d5c640f0-4c30-11e6-de5f-31a9e5047dd6",
+                                            "value": "start the hello world sample",
+                                            "type": "plain"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "開啟第一個測試",
+                                            "id": "c1f85530-e870-11e6-b176-e10c8dac3dab"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ],
+                        "relations": [],
+                        "properties": []
+                    },
+                    "id": "lib-1",
+                    "source": {
+                        "zh_TW": {},
+                        "en_US": {}
+                    },
+                    "name": "agent-based ontology",
+                    "type": "agent_entity"
+                }
+            ],
+            "flow": [
+                {
+                    "id": "c06bb500-c160-11e6-b705-678e04c37b93",
+                    "units": [
+                        {
+                            "beliefClarificationTimes": "",
+                            "beliefs": [
+                                {
+                                    "homonym": false,
+                                    "prompts": [],
+                                    "class": [],
+                                    "multiValue": false,
+                                    "defaultValue": "",
+                                    "required": "required",
+                                    "key": ""
+                                }
+                            ],
+                            "isCrossPlan": "true",
+                            "events": [
+                                {
+                                    "id": "e7ddc100-4c30-11e6-de5f-31a9e5047dd6",
+                                    "prop": {
+                                        "utterance": "utteranceToLanuchApp",
+                                        "type": "csr"
+                                    }
+                                }
+                            ],
+                            "posy": 59,
+                            "posx": -31,
+                            "label": "Plan",
+                            "goto": [],
+                            "type": "intention",
+                            "beliefClarificationContext": [],
+                            "units": [],
+                            "id": "lanuchHelloWolrd_Plan",
+                            "input": [],
+                            "description": "",
+                            "priority": "high",
+                            "action": "user-defined-action-id",
+                            "setBelief": "",
+                            "functionName": [
+                                {
+                                    "name": "向世界說hello",
+                                    "lang": "zh"
+                                },
+                                {
+                                    "name": "say hello to the world",
+                                    "lang": "en"
+                                }
+                            ],
+                            "comment": "",
+                            "output": [],
+                            "actions": [
+                                {
+                                    "condition": {
+                                        "settings": {
+                                            "root": {
+                                                "system_response": [
+                                                    ""
+                                                ],
+                                                "nodes": [],
+                                                "NOT": false,
+                                                "context": [
+                                                    ""
+                                                ],
+                                                "left": "",
+                                                "type": "Always",
+                                                "right": "",
+                                                "operator": "Always"
+                                            }
+                                        }
+                                    },
+                                    "outputCxts": [
+                                        "helloWorld"
+                                    ],
+                                    "tasks": []
+                                }
+                            ],
+                            "inputCxts": [],
+                            "timeout": -1
+                        },
+                        {
+                            "beliefClarificationTimes": "",
+                            "beliefs": [
+                                {
+                                    "homonym": false,
+                                    "prompts": [
+                                        {
+                                            "text": "can you tell me what is your My City",
+                                            "lang": "0"
+                                        }
+                                    ],
+                                    "class": [
+                                        "MyCity"
+                                    ],
+                                    "multiValue": false,
+                                    "required": "required",
+                                    "defaultValue": "",
+                                    "key": "myCity1"
+                                },
+                                {
+                                    "homonym": false,
+                                    "prompts": [],
+                                    "class": [
+                                        "base.geo.city"
+                                    ],
+                                    "multiValue": true,
+                                    "required": "notRequired",
+                                    "defaultValue": "default city Taipei",
+                                    "key": "systemCity1"
+                                }
+                            ],
+                            "isCrossPlan": "false",
+                            "events": [
+                                {
+                                    "id": "a27288d0-4c30-11e6-f837-bdb652273c85",
+                                    "prop": {
+                                        "utterance": "userSayHello",
+                                        "type": "csr"
+                                    }
+                                }
+                            ],
+                            "posy": 59,
+                            "posx": -31,
+                            "label": "Plan",
+                            "goto": [],
+                            "type": "intention",
+                            "beliefClarificationContext": [],
+                            "units": [],
+                            "id": "helloWorld",
+                            "input": [],
+                            "description": "",
+                            "priority": "high",
+                            "action": "user-defined-action-id",
+                            "setBelief": "",
+                            "functionName": [],
+                            "comment": "",
+                            "output": [],
+                            "actions": [
+                                {
+                                    "condition": {
+                                        "settings": {
+                                            "root": {
+                                                "system_response": [
+                                                    ""
+                                                ],
+                                                "nodes": [],
+                                                "NOT": false,
+                                                "context": [
+                                                    ""
+                                                ],
+                                                "left": "",
+                                                "type": "Always",
+                                                "right": "",
+                                                "operator": "Always"
+                                            }
+                                        }
+                                    },
+                                    "outputCxts": [],
+                                    "tasks": []
+                                }
+                            ],
+                            "inputCxts": [
+                                "helloWorld"
+                            ],
+                            "timeout": -1
+                        }
+                    ]
+                }
+            ]
+        },
+        "env": {
+            "orientation": "landscape",
+            "developerId": "",
+            "initScene": "c06bb500-c160-11e6-b705-678e04c37b93",
+            "autoSave": "true",
+            "appNames": [],
+            "width": 800,
+            "productDomain": "com.asus.zenbodialogsample",
+            "deactiveAction": "quit",
+            "mode": {
+                "key": "e5eb5dc0-e870-11e6-b176-e10c8dac3dab",
+                "type": "normal",
+                "timestamp": "1487153395100"
+            },
+            "productId": "11522",
+            "builderVer": "v1.0.2",
+            "height": 1280,
+            "launchActivity": "",
+            "emailsForPublishingNotification": [],
+            "g11nDefault": "en_US",
+            "appUUID": "1319FE35FABA40AAAA8C36D5A90708CE"
+        },
+        "pref": {},
+        "info": {
+            "cover": "",
+            "description": "a simple project for DDE",
+            "editedTime": "2017-02-15 18:09",
+            "version": "0,0,1"
+        },
+        "testscript": [],
+        "modified_table": {
+            "projectId": "4595",
+            "allPublish": "false"
+        }
+    }
+}

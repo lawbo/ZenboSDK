@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\Desktop\ZenboSDK\ZenboSDK\ZenboSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c77f658d56ba9cbbc331f88921c658dbc058bf9a">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\ZenboSDK_77f82a5f338442068260600558d23d195f8dc7df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.android\build-cache\68df1bf6012a02dbcd0384f802f893d04eeee1e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\classes_3377898df47b5f14b5b5bfbdba57244cf1a25d78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\Desktop\ZenboSDK\RobotActivityLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b8016da3aff5c7bbec5c9ae9b1359b72640176e">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\classes_49df199fab167275a46119a0ea0cc0549f5bb5ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_f9b4e6a21cda0aee5259abf426610c93254e98e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\library-1.0.19_ad97629f2894786c045e1d86e6291586ce460178.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\library-1.0.19_ad97629f2894786c045e1d86e6291586ce460178.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.android\build-cache\436fdd2268985bc6d730723fd36f3cfa2cabd319\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\classes_6adef8ed75e5a0174f721e85d5086bc648e0e82e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_bd7dc31a88f3e373b1dc677673e7184b0b3bc449.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.android\build-cache\1ab1a8d58091c3e32f478596a28b37a3d6fe2cf9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\classes_f6f1d502f8baa10d24c097273a06026f20491755.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\okhttp-3.1.2_68e245d2fa63d3b167a2a9e0bd5ad01073da0698.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\Desktop\ZenboSDK\ZenboSDK\ZenboSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c77f658d56ba9cbbc331f88921c658dbc058bf9a">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\ZenboSDK_77f82a5f338442068260600558d23d195f8dc7df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\Desktop\ZenboSDK\RobotActivityLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9b8016da3aff5c7bbec5c9ae9b1359b72640176e">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\classes_49df199fab167275a46119a0ea0cc0549f5bb5ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.android\build-cache\2311992d54ba4c301fc931fe9345b04f4a9612ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\classes_7d06469de1e7d17b4ffdeed5b93fc2275190f5b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.android\build-cache\a9fcc48e2307ff07086705cf568667c1e22ca5c1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\classes_1c364705dfb8937188511d3a1ad2d44845656034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\.android\build-cache\68df1bf6012a02dbcd0384f802f893d04eeee1e4\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotDevSample\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_7c0f896e8b1f12117e6e4d4c683013ec8dd110b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\David\Desktop\ZenboSDK\ZenboSDK\ZenboSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c77f658d56ba9cbbc331f88921c658dbc058bf9a">
+        <dex dex="C:\Users\David\Desktop\ZenboSDK\RobotSensorSample\build\intermediates\pre-dexed\debug\ZenboSDK_77f82a5f338442068260600558d23d195f8dc7df.jar" />
+    </item>
+
+</items>

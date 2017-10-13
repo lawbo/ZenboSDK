@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asus.robotdevsample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/RobotDevToolTheme">
+
+        <!--
+        <activity android:name=".RobotDevSampleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- vision activities -->
+        <activity android:name=".VisionActivity" />
+        <activity android:name=".VisionRequestDetectPerson" />
+
+        <!-- motion activities -->
+        <activity android:name=".MotionActivity" />
+        <activity android:name=".MotionMoveBodyHead" />
+        <activity android:name=".MotionRemoteControlBodyHead" />
+
+        <!-- robot activities -->
+        <activity android:name=".RobotActivity" />
+        <activity android:name=".RobotSpeak" />
+        <activity android:name=".RobotSetExpression" />
+
+        <!-- utility activities -->
+        <activity android:name=".UtilityActivity" />
+        <activity android:name=".UtilityPlayAction" />
+        <activity android:name=".UtilityPlayEmotionalAction" />
+
+        <!-- wheelLithts activities -->
+        <activity android:name=".WheelLightsActivity" />
+        <activity android:name=".WheelLightsSetBrightness" />
+        <activity android:name=".WheelLightsTurnOff" />
+        <activity android:name=".WheelLightsSetColor" />
+        <activity android:name=".sale" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".QaActivity"></activity>
+
+    </application>
+
+</manifest>

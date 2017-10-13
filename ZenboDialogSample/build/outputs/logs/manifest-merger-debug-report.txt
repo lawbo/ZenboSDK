@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\David\.android\build-cache\1ab1a8d58091c3e32f478596a28b37a3d6fe2cf9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\David\.android\build-cache\a9fcc48e2307ff07086705cf568667c1e22ca5c1\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\David\.android\build-cache\2311992d54ba4c301fc931fe9345b04f4a9612ee\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\David\.android\build-cache\68df1bf6012a02dbcd0384f802f893d04eeee1e4\output\AndroidManifest.xml:22:5-20
+MERGED from [ZenboSDK:RobotActivityLibrary:unspecified] C:\Users\David\Desktop\ZenboSDK\RobotActivityLibrary\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+	android:label
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:10:9-45
+meta-data#zenbo_ds_domainuuid
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:12:9-13:63
+	android:value
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:13:13-61
+	android:name
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:12:20-54
+meta-data#zenbo_ds_version_9EF85697FF064D54B32FF06D21222BA2
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:15:9-16:36
+	android:value
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:16:13-34
+	android:name
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:15:20-84
+activity#com.asus.zenbodialogsample.ZenboDialogSample
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:18:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+com.asus.intent.category.ZENBO
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:21:27-74
+category#com.asus.intent.category.ZENBO
+ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:22:17-75
+	android:name
+		ADDED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml:22:27-72
+uses-sdk
+INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\David\.android\build-cache\1ab1a8d58091c3e32f478596a28b37a3d6fe2cf9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\David\.android\build-cache\a9fcc48e2307ff07086705cf568667c1e22ca5c1\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\David\.android\build-cache\2311992d54ba4c301fc931fe9345b04f4a9612ee\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\David\.android\build-cache\68df1bf6012a02dbcd0384f802f893d04eeee1e4\output\AndroidManifest.xml:20:5-43
+MERGED from [ZenboSDK:RobotActivityLibrary:unspecified] C:\Users\David\Desktop\ZenboSDK\RobotActivityLibrary\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\David\.android\build-cache\1ab1a8d58091c3e32f478596a28b37a3d6fe2cf9\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Desktop\ZenboSDK\ZenboDialogSample\src\main\AndroidManifest.xml
